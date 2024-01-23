@@ -17,4 +17,7 @@ Fallout 2 executable contains unused debug code which loads a list of all availa
 
 ## To note
 
+- This is _not_ the same as Ctrl+R in the main menu used to access/record maps with extra bugs and non-functionalities added.
 - Will cause crashes in some situations. E.g., during combat. This might be fixable by first ending the combat programmatically?
+- This call can be easily patched into the exe by for example replacing something less useful like printing the game version (ctrl+v). Sfall is just easier to do.
+- Same code exists for FO1, but this repo is not compatible with that
